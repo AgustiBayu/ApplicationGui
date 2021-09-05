@@ -37,7 +37,7 @@ public class DasbordGui extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel1.setText("GUI HELLOWORD JAVA");
+        jLabel1.setText("GUI HELLOWORLD JAVA");
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel2.setText("Input");
@@ -62,7 +62,7 @@ public class DasbordGui extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap(167, Short.MAX_VALUE)
+                        .addContainerGap(155, Short.MAX_VALUE)
                         .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(37, 37, 37)
@@ -105,8 +105,11 @@ public class DasbordGui extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        String value = textValue1.getText().toString();
-        textValue2.setText(value);
+        /*
+            varibel value menampung data dari textValue1/text file.
+        */
+        String value = textValue1.getText().toString(); 
+        textValue2.setText(value); // data value disimpan di textValue2/text file.
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
